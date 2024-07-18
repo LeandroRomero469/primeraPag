@@ -6,13 +6,13 @@ def inicio(request):
     return render(request, "App1/index.html")
 
 def cursos(request):
-    return HttpResponse("Vista cursos")
+    return render(request, "Vista cursos")
 
 def profesores(request):
-    return HttpResponse("Vista Profesores")
+    return render(request, "Vista Profesores")
 
 def estudiantes(request):
-    return HttpResponse("Vista estudiantes")
+    return render(request, "Vista estudiantes")
 
 def entregables(request):
-    return HttpResponse("Vista entregables")
+    return render(request, "Vista entregables")
