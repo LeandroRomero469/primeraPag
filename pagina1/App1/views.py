@@ -6,7 +6,7 @@ def inicio(request):
     return render(request, "App1/index.html")
 
 def cursos(request):
-    return render(request, "Vista cursos")
+    return render(request, "App1/cursos.html")
 
 def profesores(request):
     return render(request, "Vista Profesores")
